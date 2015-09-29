@@ -1,0 +1,621 @@
+/********************
+CURVES
+********************/
+
+/**
+ * @license
+ * MyFonts Webfont Build ID 2922262, 2014-11-14T10:06:02-0500
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Novecentosanswide-Light by Synthview
+ * URL: http://www.myfonts.com/fonts/synthview/novecento/wide-light/
+ * Copyright: Copyright &#x00A9; 2013 by Jan Tonellato. All rights reserved.
+ * Licensed pageviews: 10,000
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2922262
+ * 
+ * © 2014 MyFonts Inc
+*/
+
+body {
+	margin: 0 auto;
+	padding: 0;
+}
+
+#wrapper {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+}
+
+@font-face {
+	font-family: Novecento sans wide Book;
+	src: url(../fonts/NovecentosanswideBook.otf);
+}
+
+@font-face {
+	font-family: Novecento sans wide Light;
+	src: url(../fonts/NovecentoSansWideLight.otf);
+}
+
+@font-face {
+	font-family: Novecento sans wide Medium;
+	src: url(../fonts/NovecentosanswideMedium.otf);
+}
+
+/********************
+PANEL 1
+********************/
+
+#panel1 {
+	background: url(../images/panel1.jpg);
+	background-size: cover;
+	color: white;
+	text-align: center;
+
+}
+
+#navigation{
+	background: url(../images/header.png) no-repeat center;
+	margin: 0 auto;
+	height: 185px;
+	width: 1024px;
+	font-family: helvetica;
+	font-size: 20pt;
+	font-variant: small-caps;
+	font-weight: bold;
+}
+
+#mobileNav {
+	background: url(../images/header.png) no-repeat center;
+	margin: 0 auto;
+	height: 185px;
+	width: 100%;
+	display: none;
+}
+
+#navigation ul{
+	text-decoration: none;
+	list-style: none;
+}
+
+#navigation a{
+	color: #3c183c;
+}
+
+#navigation a:hover {
+	text-decoration: none;
+	color: #5d245d;
+}
+
+#navigation .navLeft {
+	float: left;
+	text-decoration: none;
+	margin-top: 73px;
+	padding-left: 65px;
+}
+
+#navigation .navRight {
+	float: right;
+	text-decoration: none;
+	margin-top: 73px;
+	padding-right: 65px;
+}
+
+#panel1 #line1 {
+	font-family: Novecento sans wide Book;
+	font-size: 40pt;
+	color: #e5be0e;
+}
+
+#panel1 #line2 {
+	font-family: Novecento sans wide Light;
+	font-size: 90pt;
+	line-height: 40pt;
+}
+
+#panel1 #line3 span{
+	font-family: Novecento sans wide Medium;
+	font-size: 20pt;
+	vertical-align: top;
+	line-height: 70pt;
+	color: white;
+}
+
+#panel1 #line3 {
+	font-family: Novecento sans wide Medium;
+	font-size: 40pt;
+	line-height: 80pt;
+	color: #e5be0e;
+}
+
+#panel1 #line4 {
+	font-family: Novecento sans wide Medium;
+	font-size: 67pt;
+	line-height: 10pt;
+	color: #e5be0e;
+}
+
+#panel1 #justifiedText {
+	padding-top: 50px;
+}
+
+#panel1 #line5 {
+	font-family: helvetica;
+	font-size: 17pt;
+}
+
+#panel1 #line6 {
+	font-family: helvetica;
+	font-size: 18.5pt;
+}
+
+#panel1 #line7 {
+	font-family: helvetica;
+	font-size: 35pt;
+	font-weight: bold;
+	color: #e5be0e;
+}
+
+#panel1 #line8 {
+	font-family: Novecento sans wide Book;
+	font-size: 20pt;
+	line-height: 40pt;
+}
+
+#panel1 #line8 span {
+	font-family: Novecento sans wide Medium;
+	font-size: 20pt;
+	line-height: 60pt;
+	color: #e5be0e;
+}
+
+.form #promotionCode input {
+	width: 450px;
+	height: 40px;
+	background-color: #522046;
+	border: none;
+	-moz-box-shadow: inset 3px 3px 15px -1px black;
+	-webkit-box-shadow: inset 3px 3px 15px -1px black;
+	box-shadow: inset 3px 3px 15px -1px black;
+	padding: 10px;
+}
+
+#promotionCode button{
+	background-color: #e5be0e;
+	border: 0px;
+	height: 40px;
+	width: 40px;
+	box-shadow: 3px 3px 10px 1px black;
+	-webkit-box-shadow: 3px 3px 10px 1px black;
+	-moz-box-shadow: 3px 3px 10px 1px black;
+}
+
+#myModal {
+	display: none;
+}
+
+#myModal .modal-header,
+#myModal .modal-footer{
+	border: none;
+}
+
+#myModal .modal-body {
+	color: black;
+	font-family: times;
+	text-align:center;
+}
+
+#myModal .modal-body h3{
+	letter-spacing: .75em;
+	font-weight: 900;
+	font-size: 20pt;
+	color: #824a80;
+}
+
+#myModal .modal-body p{
+	font-size: 16pt;
+	font-style: italic;
+	color: #9a9a9a;
+}
+
+#myModal .modal-body span{
+	font-size: 16pt;
+	font-style: italic;
+	color: #824a80;
+	font-weight: bold;
+}
+
+#modalBorder {
+	border: dashed 2px #9a9a9a;
+	margin: 20px;
+	border-radius: 5px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+#xButton {
+	margin-top: -20px;
+}
+
+#x {
+	font-family: Novecento sans wide Light;
+	font-size: 3em;
+	font-weight: lighter;
+	color: #824a80;
+}
+
+.close {
+	opacity: 1;
+}
+
+.modal-dialog {
+	width: 900px;
+	margin: 200px auto;
+}
+
+.modal {
+	display: block;
+}
+
+.print-button{
+	margin-top: 10px;
+	background-color: #824a80;
+	color: white;
+	border: 0;
+	padding: 5px 20px;
+}
+
+/********************
+PANEL 2
+********************/
+
+#dropShadow {
+	background: url(../images/dropShadow.jpg)no-repeat center;
+	margin: 0 auto;
+	height:31px;
+}
+
+.row {
+	margin-right: 0;
+}
+
+#panel2 {
+	background: white;
+	background-size: cover;
+	width: 70%;
+	margin: 0 auto;
+}
+
+#hr {
+	width: 100%;
+	margin: 0 auto;
+	background-color: #e5be0e;
+	height: 2px;
+	margin-top: 10px;
+	margin-bottom: 40px;
+	text-align: center;
+	clear: both;
+} 
+
+#panel2 p {
+	font-family: HelveticaNeue-Light, helvetica;
+	font-size: 20pt;
+	color: #423f40;
+}
+
+#panel2 #rightCol2 #italic span{
+	color: #e5be0e;
+	font-style: italic;
+	font-weight: bold;
+}
+
+#panel2 #rightCol2 #nonItalic span{
+	color: #e5be0e;
+	font-weight: bold;
+}
+
+#leftColSpacer{
+	height: 50px;
+}
+
+#rightCol2 {
+	margin-bottom: 20px;
+}
+
+#typicalFitness {
+	font-family: helveticaNue-Light, helvetica;
+	font-size: 20pt;
+	color: #423f40;
+	text-align: center;
+	margin: 0 auto;
+	width: 80%;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	position: relative;
+
+}
+
+#benefitsTop{
+	padding-bottom: 50px;
+}
+
+.checkBox {
+	float: left;
+	padding-bottom: 135px;
+}
+
+.checkBoxBottom{
+	float: left;
+	padding-bottom: 100px;
+}
+
+.benefits {
+}
+
+#benefitsTop p{
+	font-family: helveticaNue-Light, helvetica;
+	font-size: 18pt;
+	color: #423f40;
+	font-weight: lighter;
+}
+
+#benefitsTop span{
+	font-weight: bold;
+}
+
+#benefitsBottom p{
+	font-family: helveticaNue-Light, helvetica;
+	font-size: 18pt;
+	color: #423f40;
+	font-weight: lighter;
+}
+
+#benefitsBottom span{
+	font-weight: bold;
+}
+
+#panel2height {
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+
+/********************
+PANEL 3
+********************/
+
+#panel3 {
+	background: url(../images/panel3.jpg) center;
+	background-size: cover;
+}
+
+#panel3text {
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 80px;
+}
+
+#banner {
+	width: 100%;
+	height: auto;
+	margin-top: 20px;
+}
+
+#museo {
+	width: 100%;
+	height: auto;
+}
+
+#panel3 p{
+	font-family: helvetica;
+	font-size: 17pt;
+	color: #514505;
+	text-align: center;
+}
+
+#pan3textBot p{
+	font-size: 25pt;
+}
+
+/********************
+PANEL 4
+********************/
+
+#formTopText {
+	width: 70%;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 50px;
+	letter-spacing: 1pt;
+	margin-top: 100px;
+}
+
+#formTopText span{
+	font-family: helvetica;
+	color: #e6c116;
+	font-size: 20pt;
+}
+
+#formTopText p{
+	font-family: helvetica;
+	font-size: 17pt;
+}
+
+#form {
+	width: 100%;
+	background: url(../images/form.jpg);
+	background-size: cover;
+	height: 418px;
+	margin: 0 auto;
+}
+
+#formBottomText{
+	width: 70%;
+	margin: 150px auto 40px auto ;
+	text-align: center;
+	letter-spacing: 1pt;
+}
+
+#formBottomText p {
+	font-family: helvetica;
+	font-size: 20pt;
+	color: #676767;
+}
+
+#formBottomText span{
+	font-style: italic;
+}
+
+#form {
+	padding-top: 74.5px;
+}
+
+#contactForm {
+	text-align: center;
+}
+
+#contactForm input{
+	margin-bottom: 20px;
+	width: 620px;
+	height: 48px;
+	background-color: rgba(0, 0, 0, 0.5);
+	border: none;
+	padding-left: 5px;
+	box-shadow: inset 0px 0px -1px 5px black;
+	-webkit-box-shadow: inset 0px 0px -1px 5px black;
+	-moz-box-shadow: inset 0px 0px -1px 5px black;
+	color: white;
+	font-size: 16pt;
+}
+
+#button {
+	margin-top: 20px;
+}
+
+#button button{
+	background-color: #e6c116;
+	border: none;
+	width: 144px;
+	height: 45px;
+	font-family: helvetica;
+	font-size: 16pt;
+	box-shadow: 3px 3px 10px 1px;
+	-webkit-box-shadow: 3px 3px 10px 1px;
+	-moz-box-shadow: 3px 3px 10px 1px;
+}
+
+/********************
+MEDIA QUERIES
+********************/
+
+@media (max-width: 1200px) {
+	.checkBox {
+		padding-bottom: 0;
+	}
+
+	.checkBoxBottom {
+		padding-bottom: 0;
+	}
+
+	#benefitsTop {
+		padding-bottom: 0;
+	}
+
+	.form #promotionCode input {
+		margin-bottom: 50px;
+	}
+
+
+}
+
+@media (max-width: 1050px) {
+	#navigation {
+		display: none;
+	}
+
+	#mobileNav {
+		display: block;
+		position: relative;
+	}
+
+	#mobileMenu {
+		position: absolute;
+		left: 40px;
+		top: 77px;
+	}
+
+	.dropdown-menu {
+		top: 115px;
+	}
+
+	#group {
+		text-align: center;
+	}
+}
+
+@media (max-width: 715px) {
+
+	#panel1 #line1{
+		font-size: 30pt;
+	}
+
+	#panel1 #line2{
+		font-size: 60pt;
+	}
+
+	#panel1 #line3{
+		font-size: 15pt;
+	}
+
+	#panel1 #line4{
+		font-size: 55pt;
+	}
+
+	#panel1 #line5{
+		font-size: 12pt;
+	}
+
+	#panel1 #line6{
+		font-size: 13pt;
+	}
+
+	#panel1 #line7{
+		font-size: 15pt;
+	}
+
+	#panel1 #line8{
+
+	}
+
+	#panel1,
+	#panel2,
+	#panel3,
+	#panel4 {
+		min-width: 715px;
+	}
+}
+
+#messagebox{
+	display: none;
+
+	text-align: center !important;
+	font-family: gotham-htf;
+	font-size: 1.4em;
+
+	padding-top: 20px;
+	color:white;
+}
+
+#messagebox img{
+	width: 30px;
+}
+
+#messagebox.error{
+	color: red;
+}
